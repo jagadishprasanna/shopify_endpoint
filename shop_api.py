@@ -15,7 +15,7 @@ def veryify_api_key(request: Request):
     #    raise HTTPException(status_code=401, detail="No Api Key provided in the header")
     #token_str = token.split(" ")[1]
     #if token_str == os.getenv("SHOPIFY_STATIC_TOKEN"):
-        return token
+    return token
     #else:
     #    raise HTTPException(status_code=401, detail="Invalid API Key")
 
